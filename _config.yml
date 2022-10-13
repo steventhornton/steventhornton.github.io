@@ -62,7 +62,7 @@ plugins:
 author:
   name   : Steven Thornton
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Mathematics PhD, Blockchain Security Researcher"
+  bio    : "Mathematics PhD, Blockchain Security Researcher @ OpenZeppelin"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
