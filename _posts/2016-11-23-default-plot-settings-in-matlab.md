@@ -6,7 +6,7 @@ excerpt: "Have you ever applied custom styling to a figure in Matlab only to dis
 ---
 
 {: .notice--warning}
-Note: This post may be out of date and some code may no longer do what is was originally intended. Since completing my PhD, I no longer have access to Matlab and am unable to update the post.
+__Note:__ This post may be out of date and some code may no longer do what was originally intended. Since completing my PhD, I no longer have access to Matlab and am unable to verify the accuracy of the post
 
 Have you ever applied custom styling to a figure in Matlab only to discover this styling does not transfer to subsequent figures? Unfortunately, plot styling only applies to the figure it was initially applied to. Luckily, an under-documented feature in Matlab allows you to set global properties for your figures. Matlab features a short document (find it <a href="https://www.mathworks.com/help/matlab/creating_plots/default-property-values.html" target="_blank">here</a>) about setting default properties.
 

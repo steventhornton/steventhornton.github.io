@@ -6,7 +6,7 @@ excerpt: "Matlab provides a powerful plotting interface. Unfortunately, the defa
 ---
 
 {: .notice--warning}
-Note: This post may be out of date and some code may no longer do what is was originally intended. Since completing my PhD, I no longer have access to Matlab and am unable to update the post.
+__Note:__ This post may be out of date and some code may no longer do what was originally intended. Since completing my PhD, I no longer have access to Matlab and am unable to verify the accuracy of the post.
 
 Matlab provides a powerful plotting interface. Unfortunately, the default settings do not produce the most visually appealing figures. Unlike other popular plotting libraries (<a href="https://ggplot2.tidyverse.org/" target="_blank">ggplot2</a>, <a href="http://matplotlib.org/" target="_blank">matplotlib</a>, <a href="http://www.highcharts.com/" target="_blank">highcharts</a>, <a href="https://plot.ly/" target="_blank">Plotly</a>, etc.), Matlab has no simple method for changing the overall appearance of a plot. One option is to use a platform such as Plotly within Matlab  (more details <a href="https://plot.ly/matlab/" target="_blank">here</a>). In this article I discuss how you can improve the appearance of the native plotting architecture within Matlab to give your figures a more professional, refined look.
 
