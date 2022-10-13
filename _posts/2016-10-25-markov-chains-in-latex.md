@@ -57,7 +57,7 @@ Here `s` is the label for our node. The `state` option controls the appearance o
 
 The option `right=of s` will place this node to the right of the Sunny node. If we look at our Markov chain now we will see two states next to one another with no arrows connecting them.
 
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure1"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy1.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy1.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy1%402x.png 2x"
@@ -112,7 +112,7 @@ rainy node to the sunny node we use
 {% endhighlight %}
 
 Now our diagram is starting to look a little better
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure2"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy2.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy2.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy2%402x.png 2x"
@@ -131,7 +131,7 @@ Suppose we wanted to add arrows to indicate that at each time step there is some
 {% endhighlight %}
 
 after the `\draw` command. The `loop above` option draws the arrow above the state.
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure3"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy3.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy3.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy3%402x.png 2x"
@@ -152,7 +152,7 @@ The next thing we may want to add to our diagram is labels for the transition pr
 {% endhighlight %}
 
 which produces the image
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure4"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy4.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy4.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy4%402x.png 2x"
@@ -172,7 +172,7 @@ Clearly we need to correct the positioning of the labels. To do this we will add
 {% endhighlight %}
 Why is one `auto=left` and the other `auto=right`? Every option that we specify is from the point of view of the start of the arrow.
 
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure5"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy5.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy5.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy5%402x.png 2x"
@@ -205,7 +205,7 @@ Let’s add some color and adjust the styling of a little bit to make this perfe
 
 The figure is starting to look more colorful
 
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure6"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy6.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy6.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy6%402x.png 2x"
@@ -271,7 +271,7 @@ The font used for the diagram can be changed to a sans-serif font by adding the 
 
 This produces the figure
 
-<figure style="width: 300px" class="figure">
+<figure class="align-center" style="width: 300px;">
     <a name="Figure7"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy7.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy7.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/SunnyRainy7%402x.png 2x"
@@ -322,7 +322,7 @@ In this example we will be creating a diagram of a three-state Markov chain wher
 \end{document}
 {% endhighlight %}
 
-<figure style="width: 400px" class="figure">
+<figure class="align-center" style="width: 400px;">
     <a name="Figure8"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/BullBearStagnant.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/BullBearStagnant.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/BullBearStagnant%402x.png 2x"
@@ -388,7 +388,7 @@ This example comes from a mortality model that is based on a multi-state Markov 
 \end{document}
 {% endhighlight %}
 
-<figure style="width: 600px" class="figure">
+<figure class="align-center" style="width: 600px;">
     <a name="Figure9"></a>
     <img src="{{ site.asset_url }}/Markov_Chains_in_LaTeX/PhaseTypeMortalityModel.png"    
          srcset="{{ site.asset_url }}/Markov_Chains_in_LaTeX/PhaseTypeMortalityModel.png 1x, {{ site.asset_url }}/Markov_Chains_in_LaTeX/PhaseTypeMortalityModel%402x.png 2x"
