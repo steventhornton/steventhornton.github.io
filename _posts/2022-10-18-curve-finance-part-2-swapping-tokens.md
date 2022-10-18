@@ -2,7 +2,7 @@
 title: "Curve Finance Part 2: Swapping Tokens"
 categories:
   - Blog
-excerpt: "This post will explore the dynamics of the StableSwap invariant when swapping tokens."
+excerpt: "This post explores the dynamics of the StableSwap invariant when swapping tokens."
 ---
 
 In the previous post, the Curve StableSwap invariant was introduced
