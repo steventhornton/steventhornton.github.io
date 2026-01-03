@@ -19,7 +19,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-twitter_username: StevenEThornton
+twitter_username: 0xThornton
 github_username: steventhornton
 minimal_mistakes_skin: default
 search: false
@@ -33,7 +33,7 @@ paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-asset_url: http://assets.steventhornton.ca
+asset_url: /assets
 
 include:
   - _pages
@@ -59,14 +59,19 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+atom_feed:
+  hide: true
+
+date_format: "%b. %-d, %Y"
+
 author:
   name   : Steven Thornton
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "Mathematics PhD, Blockchain Security Researcher @ OpenZeppelin"
+  bio    : "Mathematics PhD, Security Research Manager @ [OpenZeppelin](https://openzeppelin.com/)"
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/StevenEThornton"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/0xThornton"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/steventhornton"
@@ -76,9 +81,9 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/StevenEThornton"
+    - label: "X"
+      icon: "fab fa-fw fa-x-twitter"
+      url: "https://x.com/0xThornton"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/steventhornton"
@@ -94,7 +99,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
+      read_time: false
+      show_date: true
       comments: false
       share: false
       related: false

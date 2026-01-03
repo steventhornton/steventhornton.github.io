@@ -11,3 +11,39 @@ search: false
 .page__content {
   text-align: justify;
 }
+
+.list__item {
+  margin-bottom: 1em;
+
+  .archive__item-title {
+    margin-top: 0;
+    margin-bottom: 0.2em;
+  }
+
+  .archive__item-excerpt {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.page__content {
+  .notice--info,
+  .notice--warning,
+  .notice--success,
+  .notice--danger,
+  .notice--primary,
+  .notice {
+    font-size: 0.8em !important;
+  }
+
+  pre,
+  code,
+  .highlight {
+    font-size: 0.8em;
+  }
+
+  pre code,
+  .highlight code {
+    font-size: 1em; // Reset nested code to avoid compounding
+  }
+}
